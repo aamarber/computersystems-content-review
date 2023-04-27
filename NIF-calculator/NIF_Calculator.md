@@ -10,7 +10,9 @@ In order to do so, you need to know that in the Spanish identification number (N
     1. Get the 23 modulus of the number of the identification number (divide the number by 23 and get the remainder)
        66328237 % 23 = 9
     2. The result will be the position in this table of the character of the NIF:
+
 Remainder 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22
+
 Character T R W A G M Y F P D X  B  N  J  Z  S  Q  V  H  L  C  K  E
 
 In our example, as the 23 modulus was 9 the character for the NIF  66328237 	will be D.
