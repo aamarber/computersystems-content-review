@@ -21,5 +21,5 @@ Modify the previous program so it supports both providing the DNI to the script 
     2. If not:
         2.1. Prompt the user the message “Input an Identification Number without the final character:”
         2.2. Gets from the user input the identification number
- 1.3  Docker
+## 1.3  Docker
 Convert your scripts into a docker image that has the same functionality as requested in both 1.1 and 1.2 exercises.
