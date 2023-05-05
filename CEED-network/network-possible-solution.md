@@ -20,3 +20,20 @@ B, private
 
 ## Design a network
 
+As we have a /23 network and we need to assign 11 addresses and 22 addresses for each subnet, we could use smaller subnets adapted to those needs. To do so:
+
+For the computer department:
+
+Subnet IP address: 192.168.0.0
+Subnet mask: 255.255.255.240
+Available IP addresses for hosts: 192.168.0.1 - 192.168.0.14 (total of 14 hosts)
+
+For the student computer classroom:
+
+Subnet IP address: 192.168.0.16
+Subnet mask: 255.255.255.224
+Available IP addresses for hosts: 192.168.0.17 - 192.168.0.38 (total of 22 hosts)
+
+Note that we have used 4 bits for the computer department subnet and 5 bits for the student computer classroom subnet.
+
+Another option would be to use bigger subnets.
